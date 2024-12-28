@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+
+	
+	text-align:center;
+	background-image:url('images/image1.jpg');
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:skyblue;
+}
+form{
+	border:2px solid white;
+	width:400px;
+	height:400px;
+	text-align:center;
+	margin:20px 20px 600px 400px;
+	background-image:url('images/form.jpg');
+	opacity:20px;
+}	
+</style>
+</head>
+<body>
+<br>
+<form action="DbConnectivity" method="post">
+<b>Registration form</b>
+<br>
+<br>
+<label for="fname">First-Name:</label>
+<input type="text" name="fname"></input>
+<br>
+
+<label for="lname">Last-Name:</label>
+<input type="text" name="lname"></input>
+<br>
+
+Age : 
+<input type="number" name="age"></input>
+<br> 
+
+Gender:  
+<input type="radio" name="gender" value="male">male</input>
+<input type="radio" name="gender" value="female">female</input>
+<br>
+
+Phone no:
+<input type="number" name="phone"/>
+<br>
+
+Email-id:
+<input type="email" name="email" placeholder="email"/>
+<br>
+
+password:
+<input type="password" name="password" placeholder="password"/>
+<br>
+Country:
+<select name="country">
+<option>--Select--</option>
+<option >India</option>
+<option>America</option>
+<option>others</option>
+</select>
+<br>
+<button value="submit">submit</button>
+</form>
+</body>
+</html>
